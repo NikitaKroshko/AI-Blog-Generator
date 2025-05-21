@@ -33,8 +33,8 @@ def generate_title():
         result = response.json()
         print("=== Blog Output ===\n")
         print(result['response'])
+        return result['response']
     else:
         print("Error:", response.status_code, response.text)
 
-generate_title()
-    
+count = input("Input how many titles and stories you want generated: ")
