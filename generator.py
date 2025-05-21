@@ -37,4 +37,8 @@ def generate_title():
     else:
         print("Error:", response.status_code, response.text)
 
-count = input("Input how many titles and stories you want generated: ")
+count = int(input("Input how many titles and stories you want generated: "))
+while(count>0):
+    title = generate_title()
+    generate_blog_on_title(title)
+    count-=1
