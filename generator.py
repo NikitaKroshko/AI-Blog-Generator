@@ -31,7 +31,7 @@ def generate_title():
     )
     if response.status_code == 200:
         result = response.json()
-        print("=== Blog Output ===\n")
+        print("=== Blog Title Output===\n")
         print(result['response'])
         return result['response']
     else:
