@@ -42,3 +42,4 @@ while(count>0):
     title = generate_title()
     generate_blog_on_title(title)
     count-=1
+    print("\n\n\n\n\n\n\n\n\n\n\n")
