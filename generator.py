@@ -43,3 +43,4 @@ while(count>0):
     generate_blog_on_title(title)
     count-=1
     print("\n\n\n\n\n\n\n\n\n\n\n")
+print("End of generation enjoy :)")
