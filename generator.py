@@ -14,7 +14,7 @@ def generate_blog_on_title(title):
 
     if response.status_code == 200:
         result = response.json()
-        print("=== Blog Output ===\n")
+        print("=== Blog Text Output ===\n")
         print(result['response'])
     else:
         print("Error:", response.status_code, response.text)
